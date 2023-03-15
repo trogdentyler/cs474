@@ -1,0 +1,32 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+
+\title{CS 474: Final Project Proposal}
+\author{Tyler Trogden}
+% \date{Due: 02/25/2023}
+
+\begin{document}
+\maketitle
+
+    The goal of this project is to replicate the results of the paper \textit{Controlling Perceptual Factors
+    in Neural Style Transfer} by Gatys et al. 2017. In the paper, the authors use a technique called ``neural style
+    transfer" to transfer the style of one image onto the content of another image, which we previously discussed in 
+    class and implemented in the homework. The authors of the paper then go on to show that they can extend this    
+    technique to control the perceptual factors of the resulting image, such as the color, location, and spatial scale. 
+    This is done by adding a loss function to the optimization problem that is minimized during the neural style 
+    transfer which depends on the perceptual factors of the resulting image.
+
+    My approach to this project will be to implement the neural style transfer algorithm as described in the paper
+    and then extend it to control the perceptual factors of the resulting image. I will use images that are open 
+    source and available online to test the algorithm. I will use the same loss functions as the authors of the paper
+    and I will use the same optimization algorithm. For the luminance transfer, I will use the same method as the
+    authors of the paper, which is the same as the method used in \textit{Image Analogies} by Hertzmann et al. 2001.
+
+    The measures of success for this project will be the ability to transfer the style of one image onto the content
+    of another image and the ability to control the perceptual factors of the resulting image. I will measure the 
+    success of the neural style transfer algorithm by comparing the resulting image to the original image and
+    to the images that the authors of the paper used. Naturally, whether or not the results are visually pleasing
+    is a subjective measure of success.
+
+\end{document}
